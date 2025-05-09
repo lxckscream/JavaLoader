@@ -1,0 +1,1 @@
+"C:\Users\user\.jdks\openjdk-24.0.1\bin\java.exe" -jar JavaLoader.jar
