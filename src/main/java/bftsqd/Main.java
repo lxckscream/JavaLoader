@@ -28,7 +28,7 @@ public class Main {
       System.out.println(ConsoleColor.RED +  "[PizdaLoader] " + ConsoleColor.WHITE + "Проверка доступности сети..");
 
       if (!ConsoleUtilities.isInternetAvailable()) {
-         System.out.println(ConsoleColor.RED + "[PizdaLoader] (ERROR) " + ConsoleColor.WHITE + "Подключения к сети нет, запуск не возможен");
+         System.out.println(ConsoleColor.RED + "[PizdaLoader] (ERROR) " + ConsoleColor.WHITE + "Подключения к сети нет, запуск невозможен");
          sc.next();
          System.exit(-1);
       }
